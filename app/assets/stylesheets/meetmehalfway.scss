@@ -1,0 +1,51 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700italic,400,300,600);
+
+.hide
+{
+  display: none;
+}
+
+body
+{margin: 30px;
+font-family: 'Open Sans', sans-serif;
+font-weight: 300;
+font-size: 100px;
+background: #88ea88;
+color: white;}
+
+
+input
+{
+  width: 780px;
+  font-family: 'Open Sans', sans-serif;
+font-weight: 300;
+font-size: 40px;
+background: white;
+color: #88ea88;
+border: 0px;
+border-radius: 20px;
+padding-left: 20px;
+margin: 0px;
+}
+
+#submit_num
+{
+  width: 800px;
+  font-family: 'Open Sans', sans-serif;
+font-weight: 300;
+font-size: 40px;
+background: #45ad77;
+color: white;
+border: 0px;
+border-radius: 20px;
+margin: 0px;
+}
+
+#content
+{   width: 600px;
+   height: 600px;
+   position: absolute;
+   left: 50%;
+   top: 30%;
+   margin-left: -150px;
+   margin-top: -150px;}

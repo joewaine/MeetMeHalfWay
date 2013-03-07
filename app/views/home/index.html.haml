@@ -1,0 +1,19 @@
+#content
+  Meet Me Halfway.
+
+  .form#num_locations
+    = form_tag do
+      = text_field_tag 'num_locations', nil, :placeholder => 'How many places you coming from?', :autofocus => 'true'
+      = submit_tag 'Submit', :id => 'submit_num'
+
+  .form#addresses.hide
+    #address_form
+      = form_tag do
+        / = text_field_tag 'num_locations', nil, :placeholder => 'Addresses'
+        = submit_tag 'Submit', :id => 'submit_addresses'
+
+  .form#yelp_search.hide
+    #yelp_form
+      = form_tag do
+        = text_field_tag 'yelp_search_query', nil, :placeholder => 'Search Yelp'
+        = submit_tag 'Submit', :id => 'search_yelp'
